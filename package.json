@@ -1,0 +1,29 @@
+{
+  "name": "Cli-Todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./dist/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-table": "^0.3.11",
+    "inquirer": "^9.2.14",
+    "lowdb": "^1.0.0",
+    "node-banner": "^1.4.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/cli-table": "^0.3.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/lowdb": "^1.0.15",
+    "@types/ora": "^3.2.0"
+  }
+}
