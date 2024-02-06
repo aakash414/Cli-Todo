@@ -1,5 +1,5 @@
 {
-  "name": "@cli-todo/app",
+  "name": "cli-todo-app-blue",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -25,5 +25,9 @@
     "@types/inquirer": "^9.0.7",
     "@types/lowdb": "^1.0.15",
     "@types/ora": "^3.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
+
 }
